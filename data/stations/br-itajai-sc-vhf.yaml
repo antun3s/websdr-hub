@@ -1,0 +1,16 @@
+id: br-itajai-sc-vhf
+name: WebSDR Itajai VHF
+url: http://itajai.sdr.net.br:8083
+software: websdr
+location:
+  country: BR
+  city: Itajai
+  coordinates: [-26.91, -48.66]
+languages: [pt]
+coverage:
+  - name: VHF
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB, CW]
+operator: ""
+added_at: 2026-08-09

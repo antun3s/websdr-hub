@@ -1,0 +1,24 @@
+id: br-pardinho-sp-websdr-vhf
+name: WebSDR Pardinho VHF SAT Aviação
+url: http://pardinho.websdr.com.br:8903
+software: websdr
+location:
+  country: BR
+  city: Pardinho
+  coordinates: [-23.08, -48.37]
+languages: [pt]
+coverage:
+  - name: Aviação
+    start_hz: 108000000
+    stop_hz: 137000000
+    modes: [AM]
+  - name: VHF
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB]
+  - name: SAT
+    start_hz: 435000000
+    stop_hz: 438000000
+    modes: [USB, FM]
+operator: ""
+added_at: 2026-08-09

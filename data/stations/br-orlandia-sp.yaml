@@ -1,0 +1,20 @@
+id: br-orlandia-sp
+name: WebSDR Orlandia
+url: http://orlandia.sdr.net.br:9001
+software: websdr
+location:
+  country: BR
+  city: Orlandia
+  coordinates: [-20.72, -47.88]
+languages: [pt]
+coverage:
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+operator: ""
+added_at: 2026-08-09

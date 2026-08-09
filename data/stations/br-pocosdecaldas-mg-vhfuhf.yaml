@@ -1,0 +1,20 @@
+id: br-pocosdecaldas-mg-vhfuhf
+name: WebSDR Poços de Caldas VHF UHF
+url: http://crapoca.websdr.com.br:8073
+software: openwebrx
+location:
+  country: BR
+  city: Poços de Caldas
+  coordinates: [-21.78, -46.56]
+languages: [pt]
+coverage:
+  - name: VHF
+    start_hz: 50000000
+    stop_hz: 148000000
+    modes: [FM, USB, AM]
+  - name: UHF
+    start_hz: 430000000
+    stop_hz: 440000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09

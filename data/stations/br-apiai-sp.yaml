@@ -1,0 +1,24 @@
+id: br-apiai-sp
+name: WebSDR Apiai
+url: http://apiai.sdr.net.br:8901
+software: websdr
+location:
+  country: BR
+  city: Apiai
+  coordinates: [-24.51, -48.84]
+languages: [pt]
+coverage:
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 30m
+    start_hz: 10100000
+    stop_hz: 10150000
+    modes: [USB, CW]
+  - name: 10m
+    start_hz: 28000000
+    stop_hz: 29700000
+    modes: [USB, CW, AM]
+operator: ""
+added_at: 2026-08-09

@@ -1,0 +1,24 @@
+id: br-voltaredonda-rj-websdr
+name: WebSDR Volta Redonda
+url: http://websdr.dynv6.net:8901
+software: websdr
+location:
+  country: BR
+  city: Volta Redonda
+  coordinates: [-22.52, -44.10]
+languages: [pt]
+coverage:
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 15m
+    start_hz: 21000000
+    stop_hz: 21450000
+    modes: [USB, CW]
+  - name: 2m
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09

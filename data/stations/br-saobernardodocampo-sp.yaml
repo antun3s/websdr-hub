@@ -1,0 +1,16 @@
+id: br-saobernardodocampo-sp
+name: KiwiSDR São Bernardo do Campo
+url: http://170.81.155.41:7999
+software: kiwisdr
+location:
+  country: BR
+  city: São Bernardo do Campo
+  coordinates: [-23.69, -46.56]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: ""
+added_at: 2026-08-09

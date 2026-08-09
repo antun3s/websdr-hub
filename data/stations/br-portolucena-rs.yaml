@@ -1,0 +1,24 @@
+id: br-portolucena-rs
+name: WebSDR Porto Lucena PU3ALK
+url: http://pu3alk.com.br:9001
+software: websdr
+location:
+  country: BR
+  city: Porto Lucena
+  coordinates: [-27.85, -55.01]
+languages: [pt]
+coverage:
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 10m
+    start_hz: 28000000
+    stop_hz: 29700000
+    modes: [USB, CW, AM]
+operator: PU3ALK
+added_at: 2026-08-09

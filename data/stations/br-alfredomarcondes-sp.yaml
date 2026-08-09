@@ -1,0 +1,20 @@
+id: br-alfredomarcondes-sp
+name: WebSDR Alfredo Marcondes
+url: http://alfredomarcondes.sdr.net.br:37001
+software: websdr
+location:
+  country: BR
+  city: Alfredo Marcondes
+  coordinates: [-21.95, -51.41]
+languages: [pt]
+coverage:
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+operator: ""
+added_at: 2026-08-09

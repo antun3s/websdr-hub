@@ -1,0 +1,16 @@
+id: br-criciuma-sc
+name: WebSDR Criciuma
+url: http://191.240.174.37
+software: openwebrx
+location:
+  country: BR
+  city: Criciuma
+  coordinates: [-28.67, -49.37]
+languages: [pt]
+coverage:
+  - name: Scanner
+    start_hz: 25000000
+    stop_hz: 1300000000
+    modes: [AM, FM, USB]
+operator: ""
+added_at: 2026-08-09

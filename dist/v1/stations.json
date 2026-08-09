@@ -1,8 +1,1688 @@
 {
   "version": 1,
-  "generated_at": "2026-08-09T20:21:21Z",
-  "count": 1,
+  "generated_at": "2026-08-09T21:17:50Z",
+  "count": 38,
   "stations": [
+    {
+      "id": "br-alfredomarcondes-sp",
+      "name": "WebSDR Alfredo Marcondes",
+      "url": "http://alfredomarcondes.sdr.net.br:37001",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Alfredo Marcondes",
+        "coordinates": [
+          -21.95,
+          -51.41
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-apiai-sp",
+      "name": "WebSDR Apiai",
+      "url": "http://apiai.sdr.net.br:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Apiai",
+        "coordinates": [
+          -24.51,
+          -48.84
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "30m",
+          "start_hz": 10100000,
+          "stop_hz": 10150000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-brasilia-df",
+      "name": "KiwiSDR Brasilia",
+      "url": "http://kiwibsb1.proxy.kiwisdr.com:8073",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "Brasilia",
+        "coordinates": [
+          -15.79,
+          -47.88
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-campinas-sp",
+      "name": "WebSDR Campinas Frogden",
+      "url": "https://websdr.frogden.org:8443",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Campinas",
+        "coordinates": [
+          -22.9,
+          -47.06
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        },
+        {
+          "name": "2m",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-cangucu-rs",
+      "name": "WebSDR Canguçu",
+      "url": "http://177.10.119.17:8073",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Canguçu",
+        "coordinates": [
+          -31.39,
+          -52.67
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "FM",
+          "start_hz": 88000000,
+          "stop_hz": 108000000,
+          "modes": [
+            "FM"
+          ]
+        },
+        {
+          "name": "Scanner",
+          "start_hz": 25000000,
+          "stop_hz": 1300000000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-caruaru-pe",
+      "name": "WebSDR Caruaru PY7NM",
+      "url": "http://py7nmcaruarupe.ddns.net:81",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Caruaru",
+        "coordinates": [
+          -8.28,
+          -35.97
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "30m",
+          "start_hz": 10100000,
+          "stop_hz": 10150000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "VHF",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "operator": "PY7NM",
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-criciuma-sc",
+      "name": "WebSDR Criciuma",
+      "url": "http://191.240.174.37",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Criciuma",
+        "coordinates": [
+          -28.67,
+          -49.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "Scanner",
+          "start_hz": 25000000,
+          "stop_hz": 1300000000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-itajai-sc-80m",
+      "name": "WebSDR Itajai 80m e 40m",
+      "url": "http://itajai.sdr.net.br:8082",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Itajai",
+        "coordinates": [
+          -26.91,
+          -48.66
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-itajai-sc-vhf",
+      "name": "WebSDR Itajai VHF",
+      "url": "http://itajai.sdr.net.br:8083",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Itajai",
+        "coordinates": [
+          -26.91,
+          -48.66
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "VHF",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-itapeva-sp",
+      "name": "WebSDR Itapeva",
+      "url": "http://itapeva.websdr.com.br:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Itapeva",
+        "coordinates": [
+          -23.98,
+          -48.87
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-itapeva-sp-kiwi",
+      "name": "KiwiSDR Itapeva",
+      "url": "http://itapeva.websdr.com.br:8973",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "Itapeva",
+        "coordinates": [
+          -23.98,
+          -48.87
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-jaraguadosul-sc",
+      "name": "WebSDR Jaraguá do Sul CREJAS",
+      "url": "http://crejas.sdr.net.br:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Jaraguá do Sul",
+        "coordinates": [
+          -26.48,
+          -49.07
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "160m",
+          "start_hz": 1800000,
+          "stop_hz": 2000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "30m",
+          "start_hz": 10100000,
+          "stop_hz": 10150000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "20m",
+          "start_hz": 14000000,
+          "stop_hz": 14350000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "12m",
+          "start_hz": 24890000,
+          "stop_hz": 24990000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-louveira-sp",
+      "name": "WebSDR Louveira 11m",
+      "url": "http://louveira.websdr.com.br",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Louveira",
+        "coordinates": [
+          -23.08,
+          -46.95
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-orlandia-sp",
+      "name": "WebSDR Orlandia",
+      "url": "http://orlandia.sdr.net.br:9001",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Orlandia",
+        "coordinates": [
+          -20.72,
+          -47.88
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-paraibuna-sp-openwebrx",
+      "name": "WebSDR Paraibuna OpenWebRX",
+      "url": "http://paraibuna.websdr.com.br:8073",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Paraibuna",
+        "coordinates": [
+          -23.38,
+          -45.66
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        },
+        {
+          "name": "VHF",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "UHF",
+          "start_hz": 430000000,
+          "stop_hz": 440000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-paraibuna-sp-websdr",
+      "name": "WebSDR Paraibuna",
+      "url": "http://paraibuna.websdr.com.br:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Paraibuna",
+        "coordinates": [
+          -23.38,
+          -45.66
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pardinho-sp-aviacao",
+      "name": "WebSDR Pardinho Aviação",
+      "url": "http://pardinho.websdr.com.br:8074",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Pardinho",
+        "coordinates": [
+          -23.08,
+          -48.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "Aviação",
+          "start_hz": 108000000,
+          "stop_hz": 137000000,
+          "modes": [
+            "AM"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pardinho-sp-kiwi1",
+      "name": "KiwiSDR Pardinho 1",
+      "url": "http://pardinho.websdr.com.br:8071",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "Pardinho",
+        "coordinates": [
+          -23.08,
+          -48.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pardinho-sp-kiwi2",
+      "name": "KiwiSDR Pardinho 2",
+      "url": "http://pardinho.websdr.com.br:8072",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "Pardinho",
+        "coordinates": [
+          -23.08,
+          -48.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pardinho-sp-kiwi3",
+      "name": "KiwiSDR Pardinho 3",
+      "url": "http://pardinho.websdr.com.br:8073",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "Pardinho",
+        "coordinates": [
+          -23.08,
+          -48.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pardinho-sp-websdr",
+      "name": "WebSDR Pardinho",
+      "url": "http://pardinho.websdr.com.br:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Pardinho",
+        "coordinates": [
+          -23.08,
+          -48.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "160m",
+          "start_hz": 1800000,
+          "stop_hz": 2000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "20m",
+          "start_hz": 14000000,
+          "stop_hz": 14350000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "15m",
+          "start_hz": 21000000,
+          "stop_hz": 21450000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        },
+        {
+          "name": "2m",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pardinho-sp-websdr-vhf",
+      "name": "WebSDR Pardinho VHF SAT Aviação",
+      "url": "http://pardinho.websdr.com.br:8903",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Pardinho",
+        "coordinates": [
+          -23.08,
+          -48.37
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "Aviação",
+          "start_hz": 108000000,
+          "stop_hz": 137000000,
+          "modes": [
+            "AM"
+          ]
+        },
+        {
+          "name": "VHF",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "SAT",
+          "start_hz": 435000000,
+          "stop_hz": 438000000,
+          "modes": [
+            "USB",
+            "FM"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-poa-sp",
+      "name": "WebSDR Poa SAT QO-100 PU2SWX",
+      "url": "http://pu2swx.ddns.net:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Poa",
+        "coordinates": [
+          -23.53,
+          -46.35
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "SAT QO-100",
+          "start_hz": 2400000000,
+          "stop_hz": 2405000000,
+          "modes": [
+            "USB",
+            "FM"
+          ]
+        }
+      ],
+      "operator": "PU2SWX",
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pocosdecaldas-mg",
+      "name": "WebSDR Poços de Caldas CRAPOCA",
+      "url": "http://crapoca.websdr.com.br:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Poços de Caldas",
+        "coordinates": [
+          -21.78,
+          -46.56
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pocosdecaldas-mg-vhfuhf",
+      "name": "WebSDR Poços de Caldas VHF UHF",
+      "url": "http://crapoca.websdr.com.br:8073",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Poços de Caldas",
+        "coordinates": [
+          -21.78,
+          -46.56
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "VHF",
+          "start_hz": 50000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB",
+            "AM"
+          ]
+        },
+        {
+          "name": "UHF",
+          "start_hz": 430000000,
+          "stop_hz": 440000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pomerode-sc",
+      "name": "WebSDR Pomerode HF",
+      "url": "http://sdrpomer.ddns.net:9191",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Pomerode",
+        "coordinates": [
+          -26.73,
+          -49.17
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-pomerode-sc-vhfuhf",
+      "name": "WebSDR Pomerode HF VHF UHF",
+      "url": "http://jorgecasa.mycrestron.com:8073",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Pomerode",
+        "coordinates": [
+          -26.73,
+          -49.17
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "VHF",
+          "start_hz": 50000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB",
+            "AM"
+          ]
+        },
+        {
+          "name": "UHF",
+          "start_hz": 430000000,
+          "stop_hz": 960000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-portoalegre-rs",
+      "name": "KiwiSDR Porto Alegre",
+      "url": "http://21104.proxy.kiwisdr.com:8073",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "Porto Alegre",
+        "coordinates": [
+          -30.03,
+          -51.23
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-portolucena-rs",
+      "name": "WebSDR Porto Lucena PU3ALK",
+      "url": "http://pu3alk.com.br:9001",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Porto Lucena",
+        "coordinates": [
+          -27.85,
+          -55.01
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        }
+      ],
+      "operator": "PU3ALK",
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-saltodolontra-pr",
+      "name": "WebSDR Salto do Lontra",
+      "url": "http://sdr.saltonet.inf.br:8073",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Salto do Lontra",
+        "coordinates": [
+          -25.78,
+          -53.31
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "VHF",
+          "start_hz": 50000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB",
+            "AM"
+          ]
+        },
+        {
+          "name": "UHF",
+          "start_hz": 430000000,
+          "stop_hz": 960000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-saobernardodocampo-sp",
+      "name": "KiwiSDR São Bernardo do Campo",
+      "url": "http://170.81.155.41:7999",
+      "software": "kiwisdr",
+      "location": {
+        "country": "BR",
+        "city": "São Bernardo do Campo",
+        "coordinates": [
+          -23.69,
+          -46.56
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 30000000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-saopaulo-sp-cantareira",
+      "name": "WebSDR São Paulo Cantareira",
+      "url": "http://saopaulo.websdr.com.br:8901",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "São Paulo",
+        "coordinates": [
+          -23.43,
+          -46.64
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "2m",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "UHF",
+          "start_hz": 430000000,
+          "stop_hz": 440000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "1.2 GHz",
+          "start_hz": 1240000000,
+          "stop_hz": 1300000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-saopaulo-sp-pu2rry",
+      "name": "WebSDR São Paulo PU2RRY",
+      "url": "https://sdr.pu2rry.com.br",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "São Paulo",
+        "coordinates": [
+          -23.55,
+          -46.48
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "Scanner",
+          "start_hz": 25000000,
+          "stop_hz": 1300000000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "operator": "PU2RRY",
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-saopaulo-sp-py2kpe",
+      "name": "WebSDR São Paulo PY2KPE",
+      "url": "http://py2kpe.homeip.net:8902",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "São Paulo",
+        "coordinates": [
+          -23.55,
+          -46.63
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "30m",
+          "start_hz": 10100000,
+          "stop_hz": 10150000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "20m",
+          "start_hz": 14000000,
+          "stop_hz": 14350000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "12m",
+          "start_hz": 24890000,
+          "stop_hz": 24990000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "10m",
+          "start_hz": 28000000,
+          "stop_hz": 29700000,
+          "modes": [
+            "USB",
+            "CW",
+            "AM"
+          ]
+        },
+        {
+          "name": "6m",
+          "start_hz": 50000000,
+          "stop_hz": 54000000,
+          "modes": [
+            "USB",
+            "CW",
+            "FM"
+          ]
+        }
+      ],
+      "operator": "PY2KPE",
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-sorocaba-sp",
+      "name": "WebSDR Sorocaba CRASO",
+      "url": "http://craso.homeip.net:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Sorocaba",
+        "coordinates": [
+          -23.5,
+          -47.45
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "80m",
+          "start_hz": 3500000,
+          "stop_hz": 4000000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "11m",
+          "start_hz": 26965000,
+          "stop_hz": 27405000,
+          "modes": [
+            "AM",
+            "FM",
+            "USB"
+          ]
+        },
+        {
+          "name": "2m",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-voltaredonda-rj-openwebrx",
+      "name": "WebSDR Volta Redonda OpenWebRX",
+      "url": "http://websdr.dynv6.net:8900",
+      "software": "openwebrx",
+      "location": {
+        "country": "BR",
+        "city": "Volta Redonda",
+        "coordinates": [
+          -22.52,
+          -44.1
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "15m",
+          "start_hz": 21000000,
+          "stop_hz": 21450000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "2m",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
+    {
+      "id": "br-voltaredonda-rj-websdr",
+      "name": "WebSDR Volta Redonda",
+      "url": "http://websdr.dynv6.net:8901",
+      "software": "websdr",
+      "location": {
+        "country": "BR",
+        "city": "Volta Redonda",
+        "coordinates": [
+          -22.52,
+          -44.1
+        ]
+      },
+      "languages": [
+        "pt"
+      ],
+      "coverage": [
+        {
+          "name": "40m",
+          "start_hz": 7000000,
+          "stop_hz": 7300000,
+          "modes": [
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "15m",
+          "start_hz": 21000000,
+          "stop_hz": 21450000,
+          "modes": [
+            "USB",
+            "CW"
+          ]
+        },
+        {
+          "name": "2m",
+          "start_hz": 144000000,
+          "stop_hz": 148000000,
+          "modes": [
+            "FM",
+            "USB"
+          ]
+        }
+      ],
+      "added_at": "2026-08-09"
+    },
     {
       "id": "nl-enschede-pa3fwm",
       "name": "University of Twente WebSDR",

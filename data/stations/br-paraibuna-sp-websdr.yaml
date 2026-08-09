@@ -1,0 +1,28 @@
+id: br-paraibuna-sp-websdr
+name: WebSDR Paraibuna
+url: http://paraibuna.websdr.com.br:8901
+software: websdr
+location:
+  country: BR
+  city: Paraibuna
+  coordinates: [-23.38, -45.66]
+languages: [pt]
+coverage:
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 11m
+    start_hz: 26965000
+    stop_hz: 27405000
+    modes: [AM, FM, USB]
+  - name: 10m
+    start_hz: 28000000
+    stop_hz: 29700000
+    modes: [USB, CW, AM]
+operator: ""
+added_at: 2026-08-09

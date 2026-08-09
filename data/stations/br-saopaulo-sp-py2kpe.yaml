@@ -1,0 +1,40 @@
+id: br-saopaulo-sp-py2kpe
+name: WebSDR São Paulo PY2KPE
+url: http://py2kpe.homeip.net:8902
+software: websdr
+location:
+  country: BR
+  city: São Paulo
+  coordinates: [-23.55, -46.63]
+languages: [pt]
+coverage:
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 30m
+    start_hz: 10100000
+    stop_hz: 10150000
+    modes: [USB, CW]
+  - name: 20m
+    start_hz: 14000000
+    stop_hz: 14350000
+    modes: [USB, CW]
+  - name: 12m
+    start_hz: 24890000
+    stop_hz: 24990000
+    modes: [USB, CW]
+  - name: 10m
+    start_hz: 28000000
+    stop_hz: 29700000
+    modes: [USB, CW, AM]
+  - name: 6m
+    start_hz: 50000000
+    stop_hz: 54000000
+    modes: [USB, CW, FM]
+operator: PY2KPE
+added_at: 2026-08-09

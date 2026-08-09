@@ -1,0 +1,16 @@
+id: br-brasilia-df
+name: KiwiSDR Brasilia
+url: http://kiwibsb1.proxy.kiwisdr.com:8073
+software: kiwisdr
+location:
+  country: BR
+  city: Brasilia
+  coordinates: [-15.79, -47.88]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: ""
+added_at: 2026-08-09

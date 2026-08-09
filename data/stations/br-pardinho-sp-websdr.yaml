@@ -1,0 +1,44 @@
+id: br-pardinho-sp-websdr
+name: WebSDR Pardinho
+url: http://pardinho.websdr.com.br:8901
+software: websdr
+location:
+  country: BR
+  city: Pardinho
+  coordinates: [-23.08, -48.37]
+languages: [pt]
+coverage:
+  - name: 160m
+    start_hz: 1800000
+    stop_hz: 2000000
+    modes: [LSB, USB, CW]
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 20m
+    start_hz: 14000000
+    stop_hz: 14350000
+    modes: [USB, CW]
+  - name: 15m
+    start_hz: 21000000
+    stop_hz: 21450000
+    modes: [USB, CW]
+  - name: 11m
+    start_hz: 26965000
+    stop_hz: 27405000
+    modes: [AM, FM, USB]
+  - name: 10m
+    start_hz: 28000000
+    stop_hz: 29700000
+    modes: [USB, CW, AM]
+  - name: 2m
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09

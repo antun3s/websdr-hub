@@ -1,0 +1,16 @@
+id: br-saopaulo-sp-pu2rry
+name: WebSDR São Paulo PU2RRY
+url: https://sdr.pu2rry.com.br
+software: openwebrx
+location:
+  country: BR
+  city: São Paulo
+  coordinates: [-23.55, -46.48]
+languages: [pt]
+coverage:
+  - name: Scanner
+    start_hz: 25000000
+    stop_hz: 1300000000
+    modes: [AM, FM, USB]
+operator: PU2RRY
+added_at: 2026-08-09

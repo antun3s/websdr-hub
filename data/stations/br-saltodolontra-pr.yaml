@@ -1,0 +1,24 @@
+id: br-saltodolontra-pr
+name: WebSDR Salto do Lontra
+url: http://sdr.saltonet.inf.br:8073
+software: openwebrx
+location:
+  country: BR
+  city: Salto do Lontra
+  coordinates: [-25.78, -53.31]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+  - name: VHF
+    start_hz: 50000000
+    stop_hz: 148000000
+    modes: [FM, USB, AM]
+  - name: UHF
+    start_hz: 430000000
+    stop_hz: 960000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09

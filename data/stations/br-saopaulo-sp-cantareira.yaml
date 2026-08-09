@@ -1,0 +1,28 @@
+id: br-saopaulo-sp-cantareira
+name: WebSDR São Paulo Cantareira
+url: http://saopaulo.websdr.com.br:8901
+software: openwebrx
+location:
+  country: BR
+  city: São Paulo
+  coordinates: [-23.43, -46.64]
+languages: [pt]
+coverage:
+  - name: 11m
+    start_hz: 26965000
+    stop_hz: 27405000
+    modes: [AM, FM, USB]
+  - name: 2m
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB]
+  - name: UHF
+    start_hz: 430000000
+    stop_hz: 440000000
+    modes: [FM, USB]
+  - name: 1.2 GHz
+    start_hz: 1240000000
+    stop_hz: 1300000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09

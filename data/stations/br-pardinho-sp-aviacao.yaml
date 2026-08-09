@@ -1,0 +1,16 @@
+id: br-pardinho-sp-aviacao
+name: WebSDR Pardinho Aviação
+url: http://pardinho.websdr.com.br:8074
+software: openwebrx
+location:
+  country: BR
+  city: Pardinho
+  coordinates: [-23.08, -48.37]
+languages: [pt]
+coverage:
+  - name: Aviação
+    start_hz: 108000000
+    stop_hz: 137000000
+    modes: [AM]
+operator: ""
+added_at: 2026-08-09

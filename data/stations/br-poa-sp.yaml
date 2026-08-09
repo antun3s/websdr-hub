@@ -1,0 +1,16 @@
+id: br-poa-sp
+name: WebSDR Poa SAT QO-100 PU2SWX
+url: http://pu2swx.ddns.net:8901
+software: websdr
+location:
+  country: BR
+  city: Poa
+  coordinates: [-23.53, -46.35]
+languages: [pt]
+coverage:
+  - name: SAT QO-100
+    start_hz: 2400000000
+    stop_hz: 2405000000
+    modes: [USB, FM]
+operator: PU2SWX
+added_at: 2026-08-09

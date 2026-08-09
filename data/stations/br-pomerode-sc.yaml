@@ -1,0 +1,16 @@
+id: br-pomerode-sc
+name: WebSDR Pomerode HF
+url: http://sdrpomer.ddns.net:9191
+software: openwebrx
+location:
+  country: BR
+  city: Pomerode
+  coordinates: [-26.73, -49.17]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: ""
+added_at: 2026-08-09

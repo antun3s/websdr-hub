@@ -1,0 +1,20 @@
+id: br-campinas-sp
+name: WebSDR Campinas Frogden
+url: https://websdr.frogden.org:8443
+software: openwebrx
+location:
+  country: BR
+  city: Campinas
+  coordinates: [-22.90, -47.06]
+languages: [pt]
+coverage:
+  - name: 10m
+    start_hz: 28000000
+    stop_hz: 29700000
+    modes: [USB, CW, AM]
+  - name: 2m
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09

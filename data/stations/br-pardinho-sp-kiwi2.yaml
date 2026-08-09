@@ -1,0 +1,16 @@
+id: br-pardinho-sp-kiwi2
+name: KiwiSDR Pardinho 2
+url: http://pardinho.websdr.com.br:8072
+software: kiwisdr
+location:
+  country: BR
+  city: Pardinho
+  coordinates: [-23.08, -48.37]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: ""
+added_at: 2026-08-09

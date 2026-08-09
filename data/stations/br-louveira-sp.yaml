@@ -1,0 +1,16 @@
+id: br-louveira-sp
+name: WebSDR Louveira 11m
+url: http://louveira.websdr.com.br
+software: websdr
+location:
+  country: BR
+  city: Louveira
+  coordinates: [-23.08, -46.95]
+languages: [pt]
+coverage:
+  - name: 11m
+    start_hz: 26965000
+    stop_hz: 27405000
+    modes: [AM, FM, USB]
+operator: ""
+added_at: 2026-08-09

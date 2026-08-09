@@ -1,0 +1,28 @@
+id: br-sorocaba-sp
+name: WebSDR Sorocaba CRASO
+url: http://craso.homeip.net:8901
+software: websdr
+location:
+  country: BR
+  city: Sorocaba
+  coordinates: [-23.50, -47.45]
+languages: [pt]
+coverage:
+  - name: 80m
+    start_hz: 3500000
+    stop_hz: 4000000
+    modes: [LSB, USB, CW]
+  - name: 40m
+    start_hz: 7000000
+    stop_hz: 7300000
+    modes: [LSB, USB, CW]
+  - name: 11m
+    start_hz: 26965000
+    stop_hz: 27405000
+    modes: [AM, FM, USB]
+  - name: 2m
+    start_hz: 144000000
+    stop_hz: 148000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-09
