@@ -21,6 +21,34 @@
   --radius: 6px;
 }
 
+:root.light {
+  --bg: #ffffff;
+  --surface: #f6f8fa;
+  --border: #d0d7de;
+  --text: #1f2328;
+  --text-muted: #656d76;
+  --green: #1a7f37;
+  --red: #cf222e;
+  --yellow: #9a6700;
+  --blue: #0969da;
+  --purple: #8250df;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not(.dark) {
+    --bg: #ffffff;
+    --surface: #f6f8fa;
+    --border: #d0d7de;
+    --text: #1f2328;
+    --text-muted: #656d76;
+    --green: #1a7f37;
+    --red: #cf222e;
+    --yellow: #9a6700;
+    --blue: #0969da;
+    --purple: #8250df;
+  }
+}
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -39,6 +67,20 @@ header {
 }
 header h1 { font-size: 1.2rem; font-weight: 600; }
 header .subtitle { font-size: 0.8rem; color: var(--text-muted); }
+#theme-btn {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 2px 8px;
+  line-height: 1.5;
+}
+#theme-btn:hover { color: var(--text); border-color: var(--text-muted); }
 
 .filters {
   display: flex;
@@ -51,10 +93,25 @@ header .subtitle { font-size: 0.8rem; color: var(--text-muted); }
   position: sticky;
   top: 53px;
   z-index: 9;
+  transition: transform 0.3s ease;
 }
+.filters.collapsed { transform: translateY(calc(-100% - 12px)); }
+@media (min-width: 768px) { .filters.collapsed { transform: none; } }
 .filter-group { display: flex; flex-direction: column; gap: 4px; }
 .filter-group label { font-size: 0.7rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.5px; }
-.filter-group select,
+.filter-group select { display: block; }
+.filter-group input[type=number] {
+  display: block;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  width: 110px;
+}
+.filter-group input[type=number]:focus { outline: 1px solid var(--blue); }
+.filter-group input[type=number]::placeholder { color: var(--text-muted); }
 .filter-group input { display: none; }
 
 .filter-group select,
@@ -227,6 +284,7 @@ footer a:hover { text-decoration: underline; }
 <header>
   <h1>WebSDR Directory</h1>
   <div class="subtitle" id="updated">Loading...</div>
+  <button id="theme-btn">☀️</button>
 </header>
 
 <nav class="filters">
@@ -258,6 +316,11 @@ footer a:hover { text-decoration: underline; }
     <label for="f-lang">Language</label>
     <select id="f-lang"><option value="">All</option></select>
   </div>
+
+  <div class="filter-group">
+    <label for="f-freq">Freq (kHz)</label>
+    <input type="number" id="f-freq" min="0" placeholder="ex: 7100">
+  </div>
 </nav>
 
 <div class="counter" id="counter"></div>
@@ -286,6 +349,24 @@ let allStations = [];
 let statusData = {};
 let generatedAt = "";
 
+function applyTheme(theme) {
+  const root = document.documentElement;
+  root.classList.remove("light", "dark");
+  if (theme === "light") root.classList.add("light");
+  if (theme === "dark") root.classList.add("dark");
+  themeBtn.textContent = theme === "light" ? "🌙" : "☀️";
+}
+
+function initTheme() {
+  const saved = localStorage.getItem("theme");
+  if (saved) {
+    applyTheme(saved);
+  } else {
+    const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+    themeBtn.textContent = prefersLight ? "🌙" : "☀️";
+  }
+}
+
 const loader = document.getElementById("loader");
 const errorEl = document.getElementById("error");
 const errorMsg = document.getElementById("error-msg");
@@ -297,6 +378,8 @@ const fSoftware = document.getElementById("f-software");
 const fCountry = document.getElementById("f-country");
 const fBand = document.getElementById("f-band");
 const fLang = document.getElementById("f-lang");
+const fFreq = document.getElementById("f-freq");
+const themeBtn = document.getElementById("theme-btn");
 const softwareValues = ["websdr", "kiwisdr", "openwebrx", "phantomsdr", "other"];
 
 function showLoading() {
@@ -348,6 +431,8 @@ function renderStations() {
   const countryVal = fCountry.value;
   const bandVal = fBand.value;
   const langVal = fLang.value;
+  const freqVal = fFreq.value.trim();
+  const freqHz = freqVal ? parseInt(freqVal, 10) * 1000 : 0;
 
   let activeFilters = 0;
   if (statusVal) activeFilters++;
@@ -355,6 +440,7 @@ function renderStations() {
   if (countryVal) activeFilters++;
   if (bandVal) activeFilters++;
   if (langVal) activeFilters++;
+  if (freqVal) activeFilters++;
 
   const filtered = allStations.filter(st => {
     if (statusVal) {
@@ -366,6 +452,7 @@ function renderStations() {
     if (countryVal && st.location.country !== countryVal) return false;
     if (bandVal && !st.coverage.some(b => b.name === bandVal)) return false;
     if (langVal && !st.languages.includes(langVal)) return false;
+    if (freqHz > 0 && !st.coverage.some(b => b.start_hz <= freqHz && freqHz <= b.stop_hz)) return false;
     return true;
   });
 
@@ -453,9 +540,26 @@ function populateSoftwareCheckboxes() {
 }
 
 [fStatus, fCountry, fBand, fLang].forEach(el => el.addEventListener("change", renderStations));
+fFreq.addEventListener("input", renderStations);
 
 async function init() {
+  initTheme();
+  themeBtn.addEventListener("click", () => {
+    const root = document.documentElement;
+    const isDark = root.classList.contains("dark") || (!root.classList.contains("light") && !root.classList.contains("dark") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    const next = isDark ? "light" : "dark";
+    localStorage.setItem("theme", next);
+    applyTheme(next);
+  });
   showLoading();
+  const filters = document.querySelector(".filters");
+  let lastScrollY = 0;
+  window.addEventListener("scroll", () => {
+    const now = window.scrollY;
+    if (now > 60 && now > lastScrollY) filters.classList.add("collapsed");
+    else filters.classList.remove("collapsed");
+    lastScrollY = now;
+  }, { passive: true });
   try {
     const [stationsRes, statusRes] = await Promise.all([
       fetch(API_STATIONS),

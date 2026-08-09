@@ -1,15 +1,313 @@
 {
   "version": 1,
-  "generated_at": "2026-08-09T20:21:37Z",
-  "vantage": "test",
+  "generated_at": "2026-08-09T22:09:20Z",
+  "vantage": "dev-machine",
   "stations": {
+    "br-alfredomarcondes-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 62,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-apiai-sp": {
+      "state": "offline",
+      "latency_ms": 8000,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 2,
+      "error": "Get \"http://apiai.sdr.net.br:8901\": context deadline exceeded"
+    },
+    "br-brasilia-df": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 723,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-campinas-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 322,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-cangucu-rs": {
+      "state": "offline",
+      "latency_ms": 8001,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 2,
+      "error": "Get \"http://177.10.119.17:8073\": context deadline exceeded"
+    },
+    "br-caruaru-pe": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 556,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-criciuma-sc": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 64,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-itajai-sc-80m": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 78,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-itajai-sc-vhf": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 40,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-itapeva-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 84,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-itapeva-sp-kiwi": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 112,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-jaraguadosul-sc": {
+      "state": "offline",
+      "latency_ms": 8001,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 2,
+      "error": "Get \"http://crejas.sdr.net.br:8901\": context deadline exceeded"
+    },
+    "br-louveira-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5045,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:55Z"
+    },
+    "br-novaodessa-sp-greno": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5190,
+      "checked_at": "2026-08-09T22:08:56Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:56Z"
+    },
+    "br-orlandia-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5059,
+      "checked_at": "2026-08-09T22:08:56Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:56Z"
+    },
+    "br-paraibuna-sp-openwebrx": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5037,
+      "checked_at": "2026-08-09T22:08:56Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:56Z"
+    },
+    "br-paraibuna-sp-websdr": {
+      "state": "offline",
+      "latency_ms": 2321,
+      "checked_at": "2026-08-09T22:08:55Z",
+      "consecutive_failures": 2,
+      "error": "Get \"http://paraibuna.websdr.com.br:8901\": dial tcp 179.109.24.1:8901: connect: connection refused"
+    },
+    "br-pardinho-sp-aviacao": {
+      "state": "offline",
+      "latency_ms": 14,
+      "checked_at": "2026-08-09T22:08:56Z",
+      "consecutive_failures": 2,
+      "error": "Get \"http://pardinho.websdr.com.br:8074\": dial tcp 177.20.168.179:8074: connect: no route to host"
+    },
+    "br-pardinho-sp-kiwi1": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 701,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pardinho-sp-kiwi2": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 588,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pardinho-sp-kiwi3": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 491,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pardinho-sp-websdr": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 430,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pardinho-sp-websdr-vhf": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 418,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-poa-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 53,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pocosdecaldas-mg": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 49,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pocosdecaldas-mg-vhfuhf": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5245,
+      "checked_at": "2026-08-09T22:08:56Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:08:56Z"
+    },
+    "br-pomerode-sc": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 68,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-pomerode-sc-vhfuhf": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 57,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-portoalegre-rs": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 6829,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-portolucena-rs": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 78,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-saltodolontra-pr": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 370,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-saobernardodocampo-sp": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 88,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-saopaulo-sp-cantareira": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 27,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-saopaulo-sp-pu2rry": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 60,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-saopaulo-sp-py2kpe": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 26,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-sorocaba-sp": {
+      "state": "offline",
+      "latency_ms": 8005,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 2,
+      "error": "Get \"http://craso.homeip.net:8901\": context deadline exceeded"
+    },
+    "br-voltaredonda-rj-openwebrx": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5267,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
+    "br-voltaredonda-rj-websdr": {
+      "state": "online",
+      "http_code": 200,
+      "latency_ms": 5246,
+      "checked_at": "2026-08-09T22:09:01Z",
+      "consecutive_failures": 0,
+      "last_online": "2026-08-09T22:09:01Z"
+    },
     "nl-enschede-pa3fwm": {
       "state": "online",
       "http_code": 200,
-      "latency_ms": 1562,
-      "checked_at": "2026-08-09T20:21:35Z",
+      "latency_ms": 6726,
+      "checked_at": "2026-08-09T22:09:01Z",
       "consecutive_failures": 0,
-      "last_online": "2026-08-09T20:21:35Z"
+      "last_online": "2026-08-09T22:09:01Z"
     }
   }
 }

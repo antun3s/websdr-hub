@@ -1,0 +1,16 @@
+id: br-novaodessa-sp-greno
+name: GRENO Nova Odessa
+url: http://greno.myddns.me:8088/
+software: openwebrx
+location:
+  country: BR
+  city: Nova Odessa
+  coordinates: [-22.78, -47.30]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW, FM]
+operator: GRENO
+added_at: 2026-08-09
