@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-09T20:21:21Z",
+  "count": 1,
+  "stations": [
+    {
+      "id": "nl-enschede-pa3fwm",
+      "name": "University of Twente WebSDR",
+      "url": "http://websdr.ewi.utwente.nl:8901/",
+      "software": "websdr",
+      "location": {
+        "country": "NL",
+        "city": "Enschede",
+        "coordinates": [
+          52.239,
+          6.857
+        ]
+      },
+      "languages": [
+        "nl",
+        "en"
+      ],
+      "coverage": [
+        {
+          "name": "HF",
+          "start_hz": 0,
+          "stop_hz": 29160000,
+          "modes": [
+            "AM",
+            "LSB",
+            "USB",
+            "CW"
+          ]
+        }
+      ],
+      "max_users": 300,
+      "operator": "PA3FWM",
+      "added_at": "2026-08-08"
+    }
+  ]
+}
