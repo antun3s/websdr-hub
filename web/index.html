@@ -530,14 +530,15 @@ async function init() {
   });
   showLoading();
   const filters = document.querySelector(".filters");
-  let lastScrollY = 0;
-  window.addEventListener("scroll", () => {
-    if (window.innerWidth >= 768) return;
-    const now = window.scrollY;
-    if (now > 60 && now > lastScrollY) filters.classList.add("collapsed");
-    else filters.classList.remove("collapsed");
-    lastScrollY = now;
-  }, { passive: true });
+  if (window.innerWidth < 768) {
+    let lastScrollY = 0;
+    window.addEventListener("scroll", () => {
+      const now = window.scrollY;
+      if (now > 60 && now > lastScrollY) filters.classList.add("collapsed");
+      else filters.classList.remove("collapsed");
+      lastScrollY = now;
+    }, { passive: true });
+  }
   try {
     const [stationsRes, statusRes] = await Promise.all([
       fetch(API_STATIONS),
