@@ -147,8 +147,8 @@ The system SHALL use only relative URLs (e.g., `./v1/stations.json`) for all API
 - **THEN** the API fetches SHALL use relative paths resolving to `http://192.168.1.50:3000/v1/status.json` without any origin mismatch
 
 #### Scenario: Accessed via public domain
-- **WHEN** the dashboard is served from `https://example.github.io/websdr-directory/`
-- **THEN** the API fetches SHALL use relative paths resolving to `https://example.github.io/websdr-directory/v1/stations.json` without any origin mismatch
+- **WHEN** the dashboard is served from `https://example.github.io/websdr-hub/`
+- **THEN** the API fetches SHALL use relative paths resolving to `https://example.github.io/websdr-hub/v1/stations.json` without any origin mismatch
 
 ### Requirement: Filter by frequency
 The system SHALL provide an input field where the user can enter a frequency in kHz. The system SHALL filter stations to only show those whose coverage bands include the entered frequency (where `start_hz ≤ freq × 1000 ≤ stop_hz` for at least one band).

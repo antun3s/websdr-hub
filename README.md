@@ -1,11 +1,11 @@
-# websdr-directory
+# websdr-hub
 
 Diretório aberto de receptores WebSDR / KiwiSDR / OpenWebRX com monitoramento
 de disponibilidade. O catálogo é curado por Pull Request, o status é verificado
 duas vezes por dia e tudo é publicado como API estática.
 
-- Catálogo: `https://<user>.github.io/websdr-directory/v1/stations.json`
-- Status: `https://<user>.github.io/websdr-directory/v1/status.json`
+- Catálogo: `https://<user>.github.io/websdr-hub/v1/stations.json`
+- Status: `https://<user>.github.io/websdr-hub/v1/status.json`
 
 ## Como funciona
 

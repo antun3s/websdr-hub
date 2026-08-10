@@ -141,5 +141,5 @@ The system SHALL use only relative URLs (e.g., `./v1/stations.json`) for all API
 - **THEN** the API fetches SHALL use relative paths resolving to `http://192.168.1.50:3000/v1/status.json` without any origin mismatch
 
 #### Scenario: Accessed via public domain
-- **WHEN** the dashboard is served from `https://example.github.io/websdr-directory/`
-- **THEN** the API fetches SHALL use relative paths resolving to `https://example.github.io/websdr-directory/v1/stations.json` without any origin mismatch
+- **WHEN** the dashboard is served from `https://example.github.io/websdr-hub/`
+- **THEN** the API fetches SHALL use relative paths resolving to `https://example.github.io/websdr-hub/v1/stations.json` without any origin mismatch

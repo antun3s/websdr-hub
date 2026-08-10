@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/websdrdir/websdr-directory/internal/check"
+	"github.com/antun3s/websdr-hub/internal/check"
 )
 
 type Entry struct {

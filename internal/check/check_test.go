@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/websdrdir/websdr-directory/internal/catalog"
+	"github.com/antun3s/websdr-hub/internal/catalog"
 )
 
 func newChecker() *Checker {

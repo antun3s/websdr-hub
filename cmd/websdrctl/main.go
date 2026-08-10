@@ -16,9 +16,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/websdrdir/websdr-directory/internal/catalog"
-	"github.com/websdrdir/websdr-directory/internal/check"
-	"github.com/websdrdir/websdr-directory/internal/status"
+	"github.com/antun3s/websdr-hub/internal/catalog"
+	"github.com/antun3s/websdr-hub/internal/check"
+	"github.com/antun3s/websdr-hub/internal/status"
 )
 
 func main() {

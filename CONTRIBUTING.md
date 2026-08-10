@@ -1,6 +1,6 @@
 # Contribuindo
 
-Obrigado pelo interesse em contribuir com o websdr-directory! Este documento explica como adicionar novas estações e contribuir com código.
+Obrigado pelo interesse em contribuir com o websdr-hub! Este documento explica como adicionar novas estações e contribuir com código.
 
 ## Adicionando uma nova estação
 

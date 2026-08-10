@@ -1,5 +1,6 @@
 # Binaries
 bin/
+websdrctl
 
 # IDE
 .idea/

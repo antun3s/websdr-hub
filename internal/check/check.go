@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/websdrdir/websdr-directory/internal/catalog"
+	"github.com/antun3s/websdr-hub/internal/catalog"
 )
 
 const (
@@ -19,7 +19,7 @@ const (
 
 	// Identificação honesta. Muito WebSDR roda em link residencial e o
 	// operador precisa saber quem está batendo na porta dele.
-	DefaultUserAgent = "websdr-directory/0.1 (+https://github.com/websdrdir/websdr-directory)"
+	DefaultUserAgent = "websdr-hub/0.1 (+https://github.com/antun3s/websdr-hub)"
 )
 
 // Result é o resultado consolidado das tentativas de uma estação.

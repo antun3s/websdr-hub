@@ -60,7 +60,7 @@ O código atual é um MVP em Go 1.22, organizado em módulos internos (`internal
 **Racional:** Versionamento de API desde o início permite evolução do schema sem quebrar consumidores. `v1` é o contrato inicial.
 
 ### User-Agent identificado
-**Decisão:** Toda requisição HTTP de health check inclui `User-Agent: websdr-directory/0.1 (+https://github.com/websdrdir/websdr-directory)`.
+**Decisão:** Toda requisição HTTP de health check inclui `User-Agent: websdr-hub/0.1 (+https://github.com/antun3s/websdr-hub)`.
 
 **Racional:** Transparência — operadores de WebSDR podem identificar o tráfego nos logs e entrar em contato se houver problemas. É uma prática padrão de etiqueta de rede para bots de monitoramento.
 

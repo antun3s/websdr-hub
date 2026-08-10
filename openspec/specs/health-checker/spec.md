@@ -52,7 +52,7 @@ The system SHALL include a User-Agent header in every health check request that 
 
 #### Scenario: User-Agent header is present
 - **WHEN** a health check HTTP request is sent
-- **THEN** the request SHALL include a User-Agent header containing `websdr-directory` and the repository URL
+- **THEN** the request SHALL include a User-Agent header containing `websdr-hub` and the repository URL
 
 ### Requirement: HTTP client configuration
 The system SHALL use an HTTP client limited to 5 redirects and with a configurable per-request timeout.

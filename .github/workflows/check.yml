@@ -33,7 +33,7 @@ jobs:
 
       - name: Health check
         run: |
-          PREV_URL="https://${{ github.repository_owner }}.github.io/websdr-directory/v1/status.json"
+          PREV_URL="https://${{ github.repository_owner }}.github.io/websdr-hub/v1/status.json"
           ./bin/websdrctl check \
             -prev "$PREV_URL" \
             -vantage "gh-actions" \

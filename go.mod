@@ -1,4 +1,4 @@
-module github.com/websdrdir/websdr-directory
+module github.com/antun3s/websdr-hub
 
 go 1.22
 
