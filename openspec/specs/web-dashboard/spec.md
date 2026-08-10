@@ -77,13 +77,6 @@ The system SHALL allow filtering stations by frequency band via a dropdown popul
 - **WHEN** the user selects "2m" from the band dropdown
 - **THEN** only stations that cover the 2m band SHALL be displayed
 
-### Requirement: Filter by language
-The system SHALL allow filtering stations by interface language via a dropdown populated from available languages in the catalog.
-
-#### Scenario: Filter by language
-- **WHEN** the user selects "pt" from the language dropdown
-- **THEN** only stations that support Portuguese SHALL be displayed
-
 ### Requirement: Filters are combinable
 The system SHALL apply all active filters simultaneously (AND logic).
 
@@ -149,18 +142,3 @@ The system SHALL use only relative URLs (e.g., `./v1/stations.json`) for all API
 #### Scenario: Accessed via public domain
 - **WHEN** the dashboard is served from `https://example.github.io/websdr-hub/`
 - **THEN** the API fetches SHALL use relative paths resolving to `https://example.github.io/websdr-hub/v1/stations.json` without any origin mismatch
-
-### Requirement: Filter by frequency
-The system SHALL provide an input field where the user can enter a frequency in kHz. The system SHALL filter stations to only show those whose coverage bands include the entered frequency (where `start_hz ≤ freq × 1000 ≤ stop_hz` for at least one band).
-
-#### Scenario: Filter by 40m frequency
-- **WHEN** the user enters "7100" in the frequency filter
-- **THEN** only stations that have a coverage band covering 7,100,000 Hz SHALL be displayed
-
-#### Scenario: Frequency with no matches
-- **WHEN** the user enters "99999999" in the frequency filter
-- **THEN** no stations SHALL be displayed and the counter SHALL show "0 stations"
-
-#### Scenario: Empty frequency clears filter
-- **WHEN** the user clears the frequency input field
-- **THEN** all stations SHALL be displayed (filter removed)
