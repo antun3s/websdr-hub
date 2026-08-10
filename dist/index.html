@@ -311,16 +311,6 @@ footer a:hover { text-decoration: underline; }
     <label for="f-band">Band</label>
     <select id="f-band"><option value="">All</option></select>
   </div>
-
-  <div class="filter-group">
-    <label for="f-lang">Language</label>
-    <select id="f-lang"><option value="">All</option></select>
-  </div>
-
-  <div class="filter-group">
-    <label for="f-freq">Freq (kHz)</label>
-    <input type="number" id="f-freq" min="0" placeholder="ex: 7100">
-  </div>
 </nav>
 
 <div class="counter" id="counter"></div>
@@ -377,8 +367,6 @@ const fStatus = document.getElementById("f-status");
 const fSoftware = document.getElementById("f-software");
 const fCountry = document.getElementById("f-country");
 const fBand = document.getElementById("f-band");
-const fLang = document.getElementById("f-lang");
-const fFreq = document.getElementById("f-freq");
 const themeBtn = document.getElementById("theme-btn");
 const softwareValues = ["websdr", "kiwisdr", "openwebrx", "phantomsdr", "other"];
 
@@ -430,17 +418,12 @@ function renderStations() {
   const checkedSW = softwareValues.filter(v => document.getElementById("sw-" + v)?.checked);
   const countryVal = fCountry.value;
   const bandVal = fBand.value;
-  const langVal = fLang.value;
-  const freqVal = fFreq.value.trim();
-  const freqHz = freqVal ? parseInt(freqVal, 10) * 1000 : 0;
 
   let activeFilters = 0;
   if (statusVal) activeFilters++;
   if (checkedSW.length > 0 && checkedSW.length < softwareValues.length) activeFilters++;
   if (countryVal) activeFilters++;
   if (bandVal) activeFilters++;
-  if (langVal) activeFilters++;
-  if (freqVal) activeFilters++;
 
   const filtered = allStations.filter(st => {
     if (statusVal) {
@@ -451,8 +434,6 @@ function renderStations() {
     if (checkedSW.length > 0 && !checkedSW.includes(st.software)) return false;
     if (countryVal && st.location.country !== countryVal) return false;
     if (bandVal && !st.coverage.some(b => b.name === bandVal)) return false;
-    if (langVal && !st.languages.includes(langVal)) return false;
-    if (freqHz > 0 && !st.coverage.some(b => b.start_hz <= freqHz && freqHz <= b.stop_hz)) return false;
     return true;
   });
 
@@ -508,17 +489,14 @@ function escapeHTML(str) {
 function populateDropdowns() {
   const countries = new Set();
   const bands = new Set();
-  const langs = new Set();
   for (const st of allStations) {
     countries.add(st.location.country);
     for (const b of st.coverage) bands.add(b.name);
-    for (const l of st.languages) langs.add(l);
   }
 
-  [fCountry, fBand, fLang].forEach(sel => { while (sel.options.length > 1) sel.remove(1); });
+  [fCountry, fBand].forEach(sel => { while (sel.options.length > 1) sel.remove(1); });
   [...countries].sort().forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = flagEmoji(c) + " " + c; fCountry.appendChild(o); });
   [...bands].sort().forEach(b => { const o = document.createElement("option"); o.value = b; o.textContent = b; fBand.appendChild(o); });
-  [...langs].sort().forEach(l => { const o = document.createElement("option"); o.value = l; o.textContent = l.toUpperCase(); fLang.appendChild(o); });
 }
 
 function populateSoftwareCheckboxes() {
@@ -539,8 +517,7 @@ function populateSoftwareCheckboxes() {
   }
 }
 
-[fStatus, fCountry, fBand, fLang].forEach(el => el.addEventListener("change", renderStations));
-fFreq.addEventListener("input", renderStations);
+[fStatus, fCountry, fBand].forEach(el => el.addEventListener("change", renderStations));
 
 async function init() {
   initTheme();
@@ -555,6 +532,7 @@ async function init() {
   const filters = document.querySelector(".filters");
   let lastScrollY = 0;
   window.addEventListener("scroll", () => {
+    if (window.innerWidth >= 768) return;
     const now = window.scrollY;
     if (now > 60 && now > lastScrollY) filters.classList.add("collapsed");
     else filters.classList.remove("collapsed");
