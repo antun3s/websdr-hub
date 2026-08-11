@@ -100,3 +100,4 @@ saem de uma vez.
 
 Licenciamento duplo é intencional: sem ele ninguém sabe se pode reusar o
 catálogo, que é justamente o problema dos diretórios existentes.
+
