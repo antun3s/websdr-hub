@@ -1,0 +1,16 @@
+id: br-pardinho-sp-uhf
+name: Pardinho UHF
+url: http://appr.org.br:8906/
+software: websdr
+location:
+  country: BR
+  city: Botucatu
+  coordinates: [-22.89, -48.44]
+languages: [pt]
+coverage:
+  - name: UHF
+    start_hz: 430000000
+    stop_hz: 960000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-11

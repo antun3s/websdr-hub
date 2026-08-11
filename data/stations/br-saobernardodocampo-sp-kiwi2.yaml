@@ -1,0 +1,24 @@
+id: br-saobernardodocampo-sp-kiwi2
+name: São Bernardo do Campo
+url: http://170.81.155.40:7999/
+software: kiwisdr
+location:
+  country: BR
+  city: São Bernardo do Campo
+  coordinates: [-23.69, -46.56]
+languages: [pt]
+coverage:
+  - name: LF
+    start_hz: 30000
+    stop_hz: 300000
+    modes: [AM, CW]
+  - name: MF
+    start_hz: 300000
+    stop_hz: 3000000
+    modes: [AM, LSB, USB, CW]
+  - name: HF
+    start_hz: 3000000
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: ""
+added_at: 2026-08-11

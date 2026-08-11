@@ -1,0 +1,28 @@
+id: br-pardinho-sp-shf
+name: Pardinho SHF
+url: http://appr.org.br:8905/
+software: websdr
+location:
+  country: BR
+  city: Botucatu
+  coordinates: [-22.89, -48.44]
+languages: [pt]
+coverage:
+  - name: MF
+    start_hz: 300000
+    stop_hz: 3000000
+    modes: [AM, LSB, USB, CW]
+  - name: HF
+    start_hz: 3000000
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+  - name: VHF
+    start_hz: 50000000
+    stop_hz: 148000000
+    modes: [FM, USB, AM]
+  - name: SHF
+    start_hz: 2400000000
+    stop_hz: 2500000000
+    modes: [FM, USB]
+operator: ""
+added_at: 2026-08-11

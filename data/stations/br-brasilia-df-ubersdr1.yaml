@@ -1,0 +1,20 @@
+id: br-brasilia-df-ubersdr1
+name: Brasília UberSDR
+url: http://0.tcp.ngrok.io:24289/
+software: websdr
+location:
+  country: BR
+  city: Brasília
+  coordinates: [-15.79, -47.88]
+languages: [pt]
+coverage:
+  - name: MF
+    start_hz: 300000
+    stop_hz: 3000000
+    modes: [AM, LSB, USB, CW]
+  - name: HF
+    start_hz: 3000000
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: "PT2FHC"
+added_at: 2026-08-11

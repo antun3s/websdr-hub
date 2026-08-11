@@ -1,0 +1,20 @@
+id: br-saosjriopreto-sp-pu2xzl
+name: São José do Rio Preto PU2XZL
+url: http://sdrsjriopreto.ddns.net:8073/
+software: openwebrx
+location:
+  country: BR
+  city: São José do Rio Preto
+  coordinates: [-20.82, -49.38]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+  - name: VHF
+    start_hz: 50000000
+    stop_hz: 148000000
+    modes: [FM, USB, AM]
+operator: "PU2XZL"
+added_at: 2026-08-11

@@ -1,0 +1,16 @@
+id: br-louveira-sp-sdrlouvetel
+name: Louveira
+url: http://sdrlouvetel.com.br/
+software: websdr
+location:
+  country: BR
+  city: Jundiaí
+  coordinates: [-23.19, -46.88]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+operator: ""
+added_at: 2026-08-11

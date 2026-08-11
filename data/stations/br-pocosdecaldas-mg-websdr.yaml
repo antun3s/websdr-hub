@@ -1,0 +1,20 @@
+id: br-pocosdecaldas-mg-websdr
+name: Poços de Caldas
+url: http://pocosdecaldas.websdr.com.br:8901/
+software: websdr
+location:
+  country: BR
+  city: Poços de Caldas
+  coordinates: [-21.78, -46.56]
+languages: [pt]
+coverage:
+  - name: HF
+    start_hz: 0
+    stop_hz: 30000000
+    modes: [AM, LSB, USB, CW]
+  - name: VHF
+    start_hz: 50000000
+    stop_hz: 148000000
+    modes: [FM, USB, AM]
+operator: ""
+added_at: 2026-08-11
