@@ -1,5 +1,5 @@
 id: br-orlandia-sp
-name: WebSDR Orlandia
+name: Orlandia
 url: http://orlandia.sdr.net.br:9001
 software: websdr
 location:

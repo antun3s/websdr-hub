@@ -1,5 +1,5 @@
 id: br-saltodolontra-pr
-name: WebSDR Salto do Lontra
+name: Salto do Lontra
 url: http://sdr.saltonet.inf.br:8073
 software: openwebrx
 location:

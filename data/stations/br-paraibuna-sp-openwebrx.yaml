@@ -1,5 +1,5 @@
 id: br-paraibuna-sp-openwebrx
-name: WebSDR Paraibuna OpenWebRX
+name: Paraibuna OpenWebRX
 url: http://paraibuna.websdr.com.br:8073
 software: openwebrx
 location:

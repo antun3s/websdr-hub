@@ -1,5 +1,5 @@
 id: br-paraibuna-sp-websdr
-name: WebSDR Paraibuna
+name: Paraibuna
 url: http://paraibuna.websdr.com.br:8901
 software: websdr
 location:

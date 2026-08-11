@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T19:12:24Z",
+  "generated_at": "2026-08-11T20:44:26Z",
   "count": 39,
   "stations": [
     {
       "id": "br-alfredomarcondes-sp",
-      "name": "WebSDR Alfredo Marcondes",
+      "name": "Alfredo Marcondes",
       "url": "http://alfredomarcondes.sdr.net.br:37001",
       "software": "websdr",
       "location": {
@@ -45,7 +45,7 @@
     },
     {
       "id": "br-apiai-sp",
-      "name": "WebSDR Apiai",
+      "name": "Apiai",
       "url": "http://apiai.sdr.net.br:8901",
       "software": "websdr",
       "location": {
@@ -94,7 +94,7 @@
     },
     {
       "id": "br-brasilia-df",
-      "name": "KiwiSDR Brasilia",
+      "name": "Brasilia",
       "url": "http://kiwibsb1.proxy.kiwisdr.com:8073",
       "software": "kiwisdr",
       "location": {
@@ -125,7 +125,7 @@
     },
     {
       "id": "br-campinas-sp",
-      "name": "WebSDR Campinas Frogden",
+      "name": "Campinas Frogden",
       "url": "https://websdr.frogden.org:8443",
       "software": "openwebrx",
       "location": {
@@ -164,7 +164,7 @@
     },
     {
       "id": "br-cangucu-rs",
-      "name": "WebSDR Canguçu",
+      "name": "Canguçu",
       "url": "http://177.10.119.17:8073",
       "software": "openwebrx",
       "location": {
@@ -202,7 +202,7 @@
     },
     {
       "id": "br-caruaru-pe",
-      "name": "WebSDR Caruaru PY7NM",
+      "name": "Caruaru PY7NM",
       "url": "http://py7nmcaruarupe.ddns.net:81",
       "software": "websdr",
       "location": {
@@ -261,7 +261,7 @@
     },
     {
       "id": "br-criciuma-sc",
-      "name": "WebSDR Criciuma",
+      "name": "Criciuma",
       "url": "http://191.240.174.37",
       "software": "openwebrx",
       "location": {
@@ -291,7 +291,7 @@
     },
     {
       "id": "br-itajai-sc-80m",
-      "name": "WebSDR Itajai 80m e 40m",
+      "name": "Itajai 80m e 40m",
       "url": "http://itajai.sdr.net.br:8082",
       "software": "websdr",
       "location": {
@@ -331,7 +331,7 @@
     },
     {
       "id": "br-itajai-sc-vhf",
-      "name": "WebSDR Itajai VHF",
+      "name": "Itajai VHF",
       "url": "http://itajai.sdr.net.br:8083",
       "software": "websdr",
       "location": {
@@ -361,7 +361,7 @@
     },
     {
       "id": "br-itapeva-sp",
-      "name": "WebSDR Itapeva",
+      "name": "Itapeva",
       "url": "http://itapeva.websdr.com.br:8901",
       "software": "websdr",
       "location": {
@@ -401,7 +401,7 @@
     },
     {
       "id": "br-itapeva-sp-kiwi",
-      "name": "KiwiSDR Itapeva",
+      "name": "Itapeva",
       "url": "http://itapeva.websdr.com.br:8973",
       "software": "kiwisdr",
       "location": {
@@ -432,7 +432,7 @@
     },
     {
       "id": "br-jaraguadosul-sc",
-      "name": "WebSDR Jaraguá do Sul CREJAS",
+      "name": "Jaraguá do Sul CREJAS",
       "url": "http://crejas.sdr.net.br:8901",
       "software": "websdr",
       "location": {
@@ -519,7 +519,7 @@
     },
     {
       "id": "br-louveira-sp",
-      "name": "WebSDR Louveira 11m",
+      "name": "Louveira 11m",
       "url": "http://louveira.websdr.com.br",
       "software": "websdr",
       "location": {
@@ -582,7 +582,7 @@
     },
     {
       "id": "br-orlandia-sp",
-      "name": "WebSDR Orlandia",
+      "name": "Orlandia",
       "url": "http://orlandia.sdr.net.br:9001",
       "software": "websdr",
       "location": {
@@ -622,7 +622,7 @@
     },
     {
       "id": "br-paraibuna-sp-openwebrx",
-      "name": "WebSDR Paraibuna OpenWebRX",
+      "name": "Paraibuna OpenWebRX",
       "url": "http://paraibuna.websdr.com.br:8073",
       "software": "openwebrx",
       "location": {
@@ -700,7 +700,7 @@
     },
     {
       "id": "br-paraibuna-sp-websdr",
-      "name": "WebSDR Paraibuna",
+      "name": "Paraibuna",
       "url": "http://paraibuna.websdr.com.br:8901",
       "software": "websdr",
       "location": {
@@ -760,7 +760,7 @@
     },
     {
       "id": "br-pardinho-sp-aviacao",
-      "name": "WebSDR Pardinho Aviação",
+      "name": "Pardinho Aviação",
       "url": "http://pardinho.websdr.com.br:8074",
       "software": "openwebrx",
       "location": {
@@ -788,7 +788,7 @@
     },
     {
       "id": "br-pardinho-sp-kiwi1",
-      "name": "KiwiSDR Pardinho 1",
+      "name": "Pardinho 1",
       "url": "http://pardinho.websdr.com.br:8071",
       "software": "kiwisdr",
       "location": {
@@ -819,7 +819,7 @@
     },
     {
       "id": "br-pardinho-sp-kiwi2",
-      "name": "KiwiSDR Pardinho 2",
+      "name": "Pardinho 2",
       "url": "http://pardinho.websdr.com.br:8072",
       "software": "kiwisdr",
       "location": {
@@ -850,7 +850,7 @@
     },
     {
       "id": "br-pardinho-sp-kiwi3",
-      "name": "KiwiSDR Pardinho 3",
+      "name": "Pardinho 3",
       "url": "http://pardinho.websdr.com.br:8073",
       "software": "kiwisdr",
       "location": {
@@ -881,7 +881,7 @@
     },
     {
       "id": "br-pardinho-sp-websdr",
-      "name": "WebSDR Pardinho",
+      "name": "Pardinho",
       "url": "http://pardinho.websdr.com.br:8901",
       "software": "websdr",
       "location": {
@@ -978,7 +978,7 @@
     },
     {
       "id": "br-pardinho-sp-websdr-vhf",
-      "name": "WebSDR Pardinho VHF SAT Aviação",
+      "name": "Pardinho VHF SAT Aviação",
       "url": "http://pardinho.websdr.com.br:8903",
       "software": "websdr",
       "location": {
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "br-poa-sp",
-      "name": "WebSDR Poa SAT QO-100 PU2SWX",
+      "name": "Poa SAT QO-100 PU2SWX",
       "url": "http://pu2swx.ddns.net:8901",
       "software": "websdr",
       "location": {
@@ -1054,7 +1054,7 @@
     },
     {
       "id": "br-pocosdecaldas-mg",
-      "name": "WebSDR Poços de Caldas CRAPOCA",
+      "name": "Poços de Caldas CRAPOCA",
       "url": "http://crapoca.websdr.com.br:8901",
       "software": "websdr",
       "location": {
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "br-pocosdecaldas-mg-vhfuhf",
-      "name": "WebSDR Poços de Caldas VHF UHF",
+      "name": "Poços de Caldas VHF UHF",
       "url": "http://crapoca.websdr.com.br:8073",
       "software": "openwebrx",
       "location": {
@@ -1143,7 +1143,7 @@
     },
     {
       "id": "br-pomerode-sc",
-      "name": "WebSDR Pomerode HF",
+      "name": "Pomerode HF",
       "url": "http://sdrpomer.ddns.net:9191",
       "software": "openwebrx",
       "location": {
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "br-pomerode-sc-vhfuhf",
-      "name": "WebSDR Pomerode HF VHF UHF",
+      "name": "Pomerode HF VHF UHF",
       "url": "http://jorgecasa.mycrestron.com:8073",
       "software": "openwebrx",
       "location": {
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "br-portoalegre-rs",
-      "name": "KiwiSDR Porto Alegre",
+      "name": "Porto Alegre",
       "url": "http://21104.proxy.kiwisdr.com:8073",
       "software": "kiwisdr",
       "location": {
@@ -1255,7 +1255,7 @@
     },
     {
       "id": "br-portolucena-rs",
-      "name": "WebSDR Porto Lucena PU3ALK",
+      "name": "Porto Lucena PU3ALK",
       "url": "http://pu3alk.com.br:9001",
       "software": "websdr",
       "location": {
@@ -1306,7 +1306,7 @@
     },
     {
       "id": "br-saltodolontra-pr",
-      "name": "WebSDR Salto do Lontra",
+      "name": "Salto do Lontra",
       "url": "http://sdr.saltonet.inf.br:8073",
       "software": "openwebrx",
       "location": {
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "br-saobernardodocampo-sp",
-      "name": "KiwiSDR São Bernardo do Campo",
+      "name": "São Bernardo do Campo",
       "url": "http://170.81.155.41:7999",
       "software": "kiwisdr",
       "location": {
@@ -1387,7 +1387,7 @@
     },
     {
       "id": "br-saopaulo-sp-cantareira",
-      "name": "WebSDR São Paulo Cantareira",
+      "name": "São Paulo Cantareira",
       "url": "http://saopaulo.websdr.com.br:8901",
       "software": "openwebrx",
       "location": {
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "br-saopaulo-sp-pu2rry",
-      "name": "WebSDR São Paulo PU2RRY",
+      "name": "São Paulo PU2RRY",
       "url": "https://sdr.pu2rry.com.br",
       "software": "openwebrx",
       "location": {
@@ -1475,7 +1475,7 @@
     },
     {
       "id": "br-saopaulo-sp-py2kpe",
-      "name": "WebSDR São Paulo PY2KPE",
+      "name": "São Paulo PY2KPE",
       "url": "http://py2kpe.homeip.net:8902",
       "software": "websdr",
       "location": {
@@ -1563,7 +1563,7 @@
     },
     {
       "id": "br-sorocaba-sp",
-      "name": "WebSDR Sorocaba CRASO",
+      "name": "Sorocaba CRASO",
       "url": "http://craso.homeip.net:8901",
       "software": "websdr",
       "location": {
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "br-voltaredonda-rj-openwebrx",
-      "name": "WebSDR Volta Redonda OpenWebRX",
+      "name": "Volta Redonda OpenWebRX",
       "url": "http://websdr.dynv6.net:8900",
       "software": "openwebrx",
       "location": {
@@ -1670,7 +1670,7 @@
     },
     {
       "id": "br-voltaredonda-rj-websdr",
-      "name": "WebSDR Volta Redonda",
+      "name": "Volta Redonda",
       "url": "http://websdr.dynv6.net:8901",
       "software": "websdr",
       "location": {

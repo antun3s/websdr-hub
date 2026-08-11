@@ -1,5 +1,5 @@
 id: br-pomerode-sc-vhfuhf
-name: WebSDR Pomerode HF VHF UHF
+name: Pomerode HF VHF UHF
 url: http://jorgecasa.mycrestron.com:8073
 software: openwebrx
 location:

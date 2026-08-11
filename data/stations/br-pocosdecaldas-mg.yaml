@@ -1,5 +1,5 @@
 id: br-pocosdecaldas-mg
-name: WebSDR Poços de Caldas CRAPOCA
+name: Poços de Caldas CRAPOCA
 url: http://crapoca.websdr.com.br:8901
 software: websdr
 location:

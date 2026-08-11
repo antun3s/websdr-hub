@@ -1,5 +1,5 @@
 id: br-sorocaba-sp
-name: WebSDR Sorocaba CRASO
+name: Sorocaba CRASO
 url: http://craso.homeip.net:8901
 software: websdr
 location:

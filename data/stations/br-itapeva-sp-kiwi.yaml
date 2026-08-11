@@ -1,5 +1,5 @@
 id: br-itapeva-sp-kiwi
-name: KiwiSDR Itapeva
+name: Itapeva
 url: http://itapeva.websdr.com.br:8973
 software: kiwisdr
 location:

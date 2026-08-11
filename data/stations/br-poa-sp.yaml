@@ -1,5 +1,5 @@
 id: br-poa-sp
-name: WebSDR Poa SAT QO-100 PU2SWX
+name: Poa SAT QO-100 PU2SWX
 url: http://pu2swx.ddns.net:8901
 software: websdr
 location:

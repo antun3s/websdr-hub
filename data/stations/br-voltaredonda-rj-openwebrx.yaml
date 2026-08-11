@@ -1,5 +1,5 @@
 id: br-voltaredonda-rj-openwebrx
-name: WebSDR Volta Redonda OpenWebRX
+name: Volta Redonda OpenWebRX
 url: http://websdr.dynv6.net:8900
 software: openwebrx
 location:

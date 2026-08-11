@@ -1,5 +1,5 @@
 id: br-pardinho-sp-websdr-vhf
-name: WebSDR Pardinho VHF SAT Aviação
+name: Pardinho VHF SAT Aviação
 url: http://pardinho.websdr.com.br:8903
 software: websdr
 location:

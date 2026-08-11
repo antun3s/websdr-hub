@@ -1,5 +1,5 @@
 id: br-apiai-sp
-name: WebSDR Apiai
+name: Apiai
 url: http://apiai.sdr.net.br:8901
 software: websdr
 location:

@@ -1,5 +1,5 @@
 id: br-itapeva-sp
-name: WebSDR Itapeva
+name: Itapeva
 url: http://itapeva.websdr.com.br:8901
 software: websdr
 location:

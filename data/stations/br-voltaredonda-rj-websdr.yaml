@@ -1,5 +1,5 @@
 id: br-voltaredonda-rj-websdr
-name: WebSDR Volta Redonda
+name: Volta Redonda
 url: http://websdr.dynv6.net:8901
 software: websdr
 location:

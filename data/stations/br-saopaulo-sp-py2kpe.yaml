@@ -1,5 +1,5 @@
 id: br-saopaulo-sp-py2kpe
-name: WebSDR São Paulo PY2KPE
+name: São Paulo PY2KPE
 url: http://py2kpe.homeip.net:8902
 software: websdr
 location:

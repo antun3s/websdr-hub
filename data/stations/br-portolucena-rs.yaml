@@ -1,5 +1,5 @@
 id: br-portolucena-rs
-name: WebSDR Porto Lucena PU3ALK
+name: Porto Lucena PU3ALK
 url: http://pu3alk.com.br:9001
 software: websdr
 location:

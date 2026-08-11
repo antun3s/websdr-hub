@@ -1,5 +1,5 @@
 id: br-pocosdecaldas-mg-vhfuhf
-name: WebSDR Poços de Caldas VHF UHF
+name: Poços de Caldas VHF UHF
 url: http://crapoca.websdr.com.br:8073
 software: openwebrx
 location:

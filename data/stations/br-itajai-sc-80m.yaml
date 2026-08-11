@@ -1,5 +1,5 @@
 id: br-itajai-sc-80m
-name: WebSDR Itajai 80m e 40m
+name: Itajai 80m e 40m
 url: http://itajai.sdr.net.br:8082
 software: websdr
 location:

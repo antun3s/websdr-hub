@@ -1,5 +1,5 @@
 id: br-caruaru-pe
-name: WebSDR Caruaru PY7NM
+name: Caruaru PY7NM
 url: http://py7nmcaruarupe.ddns.net:81
 software: websdr
 location:

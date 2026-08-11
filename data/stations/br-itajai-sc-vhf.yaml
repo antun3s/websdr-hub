@@ -1,5 +1,5 @@
 id: br-itajai-sc-vhf
-name: WebSDR Itajai VHF
+name: Itajai VHF
 url: http://itajai.sdr.net.br:8083
 software: websdr
 location:

@@ -1,5 +1,5 @@
 id: br-pomerode-sc
-name: WebSDR Pomerode HF
+name: Pomerode HF
 url: http://sdrpomer.ddns.net:9191
 software: openwebrx
 location:
