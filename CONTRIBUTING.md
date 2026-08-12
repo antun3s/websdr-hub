@@ -60,6 +60,52 @@ go build -o bin/websdrctl ./cmd/websdrctl
 
 O CI executa `websdrctl validate` automaticamente em todo PR.
 
+## Como funciona
+
+| Camada | Onde vive | Quem escreve |
+|---|---|---|
+| Catálogo curado | `data/stations/*.yaml` na `main` | Humanos, via PR |
+| Status + API | GitHub Pages (`dist/`) | Bot, 2×/dia (06:00 e 18:00 UTC) |
+
+Não existe banco de dados nem branch de estado. A rodada de health check lê o
+`status.json` publicado, recalcula e republica — o site *é* o armazenamento.
+
+## Uso local
+
+```bash
+go build -o bin/websdrctl ./cmd/websdrctl
+
+./bin/websdrctl validate                     # valida o catálogo
+./bin/websdrctl build                        # gera dist/v1/stations.json
+./bin/websdrctl check -prev dist/v1/status.json   # consulta e gera status.json
+```
+
+Flags de `check`: `-concurrency` (padrão 10), `-timeout` (10s por tentativa),
+`-retry` (5s entre tentativas), `-vantage` (identifica o ponto de observação),
+`-prev` (caminho local **ou** URL http).
+
+## Verificação de disponibilidade
+
+Duas rodadas por dia (06:00 e 18:00 UTC). Dentro de **cada rodada**, cada
+estação recebe até duas tentativas, com 5s entre elas — basta uma responder
+para contar como online. São dois eixos independentes: a frequência (2×/dia)
+decide *quando* checar; o retry (2 tentativas) decide se uma falha isolada
+dentro daquela janela já marca a estação como offline.
+
+O retry importa mais justamente por rodar só 2×/dia: sem ele, um timeout
+isolado de link residencial deixaria a estação marcada errada por ~12h, até
+a próxima rodada. Com ele, só falhas persistentes (as duas tentativas
+falham) viram `offline`.
+
+O runner do GitHub Actions é um único ponto de observação em datacenter. Uma
+estação marcada offline pode estar apenas bloqueando aquele range de IP;
+`consecutive_failures` no `status.json` é o sinal para investigar antes de
+remover algo do catálogo.
+
+Etiqueta de rede: `User-Agent` identificado com a URL do projeto, no máximo 10
+consultas simultâneas, timeout curto. Operador que quiser sair do diretório,
+basta abrir uma issue.
+
 ## Licenciamento
 
 - Código: Apache-2.0 (`LICENSE`)
